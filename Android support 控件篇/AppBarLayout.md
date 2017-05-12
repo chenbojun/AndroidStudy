@@ -86,5 +86,14 @@
 
 （4） enterAlwaysCollapsed：是enterAlways的附加选项，**一般跟enterAlways一起使用**，它是指，View在往下“出现”的时候，首先是enterAlways效果，当View的高度达到最小高度（设置minHeight）时，View就暂时不去往下滚动，直到ScrollView滑动到顶部不再滑动时，View再继续往下滑动，直到滑到View的顶部结束。
 
-参考资料：
-http://www.jianshu.com/p/d159f0176576
+##附加功能
+
+NestedScrollView设置了AppBarLayout.ScrollingViewBehavior后，默认位置紧跟在AppBarLayout后面。
+如果希望调整NestedScrollView相对于AppBarLayout的位置，可以设置**app:behavior_overlapTop**属性～
+效果参考
+
+##参考资料：
+
+[Android开发：最详细的 Toolbar 开发实践总结](http://www.jianshu.com/p/79604c3ddcae)
+
+[玩转AppBarLayout，更酷炫的顶部栏](http://www.jianshu.com/p/d159f0176576)
