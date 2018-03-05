@@ -76,4 +76,4 @@ Android官方并未提供直接显示gif图片资源的功能，我们可以通�
 	http://frescolib.org/docs/index.html
 	
 	http://frescolib.org/docs/animations.html#playing-animations-manually
-	
+	a
